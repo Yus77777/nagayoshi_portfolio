@@ -1,0 +1,108 @@
+.list{
+    display: flex;
+    flex-flow: column;
+    gap: 2em;
+
+    /* ポートフォリオ用 */
+    gap: 8px;
+    color: #FFF;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 0 0 4px #FFF inset;
+    background-color: #19171D;
+    padding: 16px 24px ;}
+
+.list a:hover{
+    color: var(--accent);
+}
+
+
+
+@media (hover: hover) {
+    .list a:hover {
+        color: var(--accent);
+    }
+}
+
+@media (hover:hover){
+    .list a{
+        -webkit-tap-highrrlight-color: transparent;
+    
+    }
+
+    .list a:active {
+        color: var(--accent);
+    }
+
+}
+
+
+
+
+.btn{
+    appearance: none;
+    border: 0;
+    /* border-radius: 5px; */
+    background:none;
+    color: rgb(0, 0, 0);
+    padding: 0px 0px;
+    font-size: 16px;
+}
+
+
+/* 
+.close .btn{
+    color: blue;
+}
+
+.open .btn{
+    color: red;
+} */
+
+.open .listsp{
+    background: #000;
+    display: block;
+    position: absolute;
+    gap: 8px;
+    color: #FFF;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 0 0 4px #FFF inset;
+    background-color: #19171D;
+    padding: 16px 24px ;
+}
+
+
+
+/* PCレイアウト */
+@media screen and (min-width:768px){
+    .btn{
+        display: none;
+    }
+
+    .listsp{
+        display: none;   
+    }
+
+    .open .listsp{
+        background: #000;
+        display: none;
+        position: absolute;
+    }
+    
+
+}
+
+/* SPレイアウト */
+@media screen and (max-width:768px){
+    /* .btn{
+        display: none;
+    } */
+    .list{
+        display: none;
+    }
+
+    .listsp{
+        display: none;
+    }
+}

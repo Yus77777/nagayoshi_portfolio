@@ -1,0 +1,60 @@
+.Container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+
+.image{
+    /* width: 100%; */
+    width: 250px;
+    height: 250px;
+    /* @media (min-width: 768px) {
+        .image {
+            width: 50%;
+        }
+    } */
+}
+
+.ProfileContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 48px;
+}
+
+.text{
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+.Discription{
+    font-size: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .Container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ProfileContainer{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .text{
+        font-size: 36px;
+        margin-bottom: 24px;
+        text-align: center;
+    }
+
+    .Discription{
+        font-size: 14px;
+    }
+
+}

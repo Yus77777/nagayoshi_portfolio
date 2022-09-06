@@ -1,0 +1,12 @@
+.default{
+    width: 92%;
+    max-width: 1152px;
+    margin: 0 auto;
+    /* margin-top: 200px; */
+    padding-top: 115px;
+}
+
+.large{
+    composes: default;
+    max-width: 1280px;
+}

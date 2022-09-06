@@ -1,0 +1,20 @@
+.flexContainer {
+    composes: spaceBetween from 'styles/utils.module.css';
+    padding-bottom: 16px;
+    padding-top: 16px;
+    /* border-bottom: 1px solid rgb(155, 155, 155); */
+
+
+  }
+
+
+
+  /* SPレイアウト */
+@media screen and (max-width:768px){
+
+  .flexContainer{
+    justify-content: left;
+    /* background: #000; */
+    gap: 4px;
+  }
+}

@@ -1,0 +1,33 @@
+/* .flexContainer{
+    composes: sideBySideCenter from 'styles/utils.module.css'
+} */
+
+.Container{
+
+    /* ポートフォリオ用 */
+    gap: 8px;
+    color: #FFF;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 0 0 4px #FFF inset;
+    background-color: #19171D;
+    padding: 16px;
+    margin-top: 420px;
+}
+
+
+.text{
+    /* font-size: var(--display); */
+    font-size: 32px;
+    font-weight: 900;
+    /* letter-spacing: 0.15em; */
+}
+
+
+@media (max-width: 768px) {
+    .text{
+        font-size: 16px;
+        font-weight: 900;
+    }
+
+}

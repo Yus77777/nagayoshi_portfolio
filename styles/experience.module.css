@@ -1,0 +1,16 @@
+.Container{
+
+    /* ポートフォリオ用 */
+    gap: 8px;
+    color: #FFF;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 0 0 4px #FFF inset;
+    background-color: #19171D;
+    padding: 16px;
+    margin-top: 160px;
+}
+
+.ExperienceContainer{
+    padding-bottom: 8px;
+}
